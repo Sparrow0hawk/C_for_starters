@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* this is a comment */
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int distance = 100;
 
