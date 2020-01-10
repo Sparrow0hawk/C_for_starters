@@ -2,3 +2,4 @@
 
 # ignore compiled binaries
 bin/*
+*.dSYM/*
