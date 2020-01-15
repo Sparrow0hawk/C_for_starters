@@ -9,5 +9,6 @@ chmod +x $exfile
 # move compiled file into bin
 mv $exfile bin/
 
-# run compiled file
-bin/$exfile
+# run compiled file and pass list of command line args
+# to bin file
+bin/$exfile $@
